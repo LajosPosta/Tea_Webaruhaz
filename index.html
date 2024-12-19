@@ -37,14 +37,14 @@
                     <img src="./assets/icons/account.png" alt="Belépés">
                 </a>
             </div>
-            <ul class="nav-list-container">
-                <li>Termékkategóriák</li>
-                <li>Rólunk</li>
-                <li>Rólunk mondák</li>
-                <li>Üzleteink</li>
-                <li>Kapcsolat</li>
-            </ul>
         </nav>
+        <ul id="nav" class="nav-list-container nav-list-container-hidden">
+            <li><a class="menuItem" href="#">Termékek</a></li>
+            <li><a class="menuItem" href="#">Rólunk</a></li>
+            <li><a class="menuItem" href="#">Rólunk mondák</a></li>
+            <li><a class="menuItem" href="#">Üzleteink</a></li>
+            <li><a class="menuItem" href="#">Kapcsolat</a></li>
+        </ul>
     </header>
     <main>
         <section>
@@ -65,5 +65,15 @@
             <h6>Kapcsolat</h6>
         </section>
     </footer>
+    <script src="./JavaScript/index.js"></script>
+    
+    <script>
+        const arrow = document.getElementById("js-forward");
+        arrow.onclick = function () {
+        document.getElementById("js-films").scrollLeft += 800;
+    };
+
+
+</script>
 </body>
 </html>

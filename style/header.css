@@ -92,12 +92,41 @@ h1 {
     height: 50%;
 }
 
-.nav-list-container {
-    position: absolute;
+.nav-list-container-hidden {
+    position: relative;
     top: 4rem;
+    left: -28.5rem;
+    margin: 0 1.5rem;
+    padding: 2rem;
+    background-color: var(--background-color-white);
     border: 2px solid red;
-    width: 22rem;
+    border-radius: 7px;
+    min-width: 9rem;
+    max-width: 27rem;
     height: 80vh;
+} 
+
+.nav-list-container {
+    position: relative;
+    top: 4rem;
+    margin: 0 1.5rem;
+    padding: 2rem;
+    background-color: var(--background-color-white);
+    border: 2px solid red;
+    border-radius: 7px;
+    min-width: 9rem; 
+    max-width: 27rem;
+    height: 80vh;
+}
+
+
+
+
+
+.nav-list-container li a{
+    color: var(--font-color-grey);
+    font-size: 1.3rem;
+    line-height: 2.5rem;
 }
 
 
@@ -112,4 +141,8 @@ h1 {
     }
 
 
+}
+
+@media screen and (min-width: 992px) {
+    /*MEGSZŰNIK A nav-list-container position:relative*/
 }
