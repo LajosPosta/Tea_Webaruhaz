@@ -6,3 +6,5 @@ Icons:
 # Favicon - The leaf favicon made by Freepik from www.flaticon.com
 # Loupe icon created by Pixel perfect from www.flaticon.com
 
+törés pont 576 768 992
+
