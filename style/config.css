@@ -10,7 +10,6 @@
 --background-color-lightgrey: rgb(242,242,242);
 --background-color-darkgrey:rgb(51,51,51);
 --background-color-vanilia:rgb(255,250,230);
-
 --background-color-mobileUnderlay: rgb(0, 0, 0);
 
 }
@@ -25,7 +24,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    list-style: none; 
     font-family: Nunito;
 
 }
