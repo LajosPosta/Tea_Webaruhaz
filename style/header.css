@@ -106,6 +106,7 @@ h1 {
     height: 80vh;
     /* transition: 0.5s ease-out; */
     visibility: hidden;
+    z-index: 99; 
     
 } 
 
@@ -118,7 +119,7 @@ h1 {
     font-size: 1.3rem;
 }
 
-.nav-item::after {
+/* .nav-item::after {
     content: "";
     width: 0;
     height: .1em;
@@ -129,7 +130,7 @@ h1 {
 
 .nav-item:hover::after {
     width: 100%;
-}
+} */
 
 .nav-list-container_close-icon {
     display: flex;
