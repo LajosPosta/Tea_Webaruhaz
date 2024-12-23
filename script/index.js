@@ -1,8 +1,12 @@
-const hamburger = document.querySelector(".hamburger-button");
-const navlistcontainer = document.querySelector(".nav-list-container");
+/* Nav bar aktíválása*/
 
-hamburger.addEventListener("click", menuOpen);
+const hamburgerBtn = document.querySelector(".hamburger-button");
+const navListContainer = document.querySelector(".nav-list-container");
+const closeBtn = document.querySelector(".close-icon")
+
+hamburgerBtn.addEventListener("click", menuOpen);
+closeBtn.addEventListener("click", menuOpen);
 
 function menuOpen() {
-    navlistcontainer.classList.toggle("active");
+    navListContainer.classList.toggle("active");
 }
