@@ -114,7 +114,6 @@ h1 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     top: 5rem;
     left: -27rem;
     margin: 0 1.5rem;
@@ -125,7 +124,7 @@ h1 {
     width: 70vw;
     height: 80vh;
     visibility: hidden;
-    transition: 300ms ease-in-out;
+    transition: 400ms ease-out;
     z-index: 10; 
     
 } 
@@ -150,6 +149,7 @@ h1 {
     color: var(--font-color-grey);
     font-size: 1.3rem;
     display: inline-block;
+    margin: .5rem 0;
 }
 
 .nav-item::after {
@@ -167,23 +167,52 @@ h1 {
 
 
 
-/***** Products *****/
+/***** Termékek *****/
 
-.products-close {
-    padding-left: 1rem;
-    display: none;
-} 
 
-/* .products-close.products-active {
+.nav-item_products-active{
+    color: var(--font-color-green);
+}
+
+.products-arrow {
+    margin-left: 1rem;
+    width: .8rem;
+    transition: .3s;
+
+}
+
+.products-arrow_is-active {
+    transform: rotate(180deg);
+}
+
+.products {
+    height: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column; 
+    gap: .5rem;
+    transition: .5s;
+    overflow: hidden;
+}
+
+
+.products-is-active {
+    display: flex;
+    flex-direction: column;
+    height: 19em;
+    /* gap: .5rem; */
+    transition: .5s;
+    overflow: hidden;
     visibility: visible;
-}  */
+}
 
 
 .product{
+    padding-left: 1rem;
     color: var(--font-color-grey);
     font-size: 1rem;
     display: inline-block;
-    padding: 0 0 .5rem 1rem;
+    /* padding: 0 0 .5rem 1rem; */
 }
 
 .product::after {

@@ -6,6 +6,11 @@ Icons:
 # Favicon - The leaf favicon made by Freepik from www.flaticon.com
 # Loupe icon created by Pixel perfect from www.flaticon.com
 # Close icons created by Pixel perfect - Flaticon
+# Arrow icons created by Freepik - Flaticon
+
+Pictures:
+
+# Pexels.com
 
 törés pont 576 768 992
 

@@ -26,6 +26,7 @@
     text-decoration: none;
     list-style: none; 
     font-family: Nunito;
+    user-select: none;
 
 }
 
