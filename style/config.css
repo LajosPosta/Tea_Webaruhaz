@@ -31,21 +31,5 @@
 
 html {
     font-size: 16px;
+    min-width: 15rem;
 }
-
-
-/*.mobileUnderlay {
-    position: fixed;
-    top: 4rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: var(--background-color-mobileUnderlay);
-    opacity: .5;
-    z-index: 1; 
-    visibility: hidden;
-}
-
-.mobileUnderlay.on {
-    visibility: visible;
-}*/
