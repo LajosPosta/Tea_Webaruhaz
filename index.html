@@ -49,7 +49,7 @@
                     </label>
                 </div>
                     <li>
-                        <a class="nav-item nav-item_products nav-item_products-active " href="#">
+                        <a class="nav-item nav-item_products nav-item_products-active" href="#">
                             Termékek
                         </a>
                         <img class="products-arrow products-arrow_is-active" src="./assets/icons/arrow.png" alt="termékek legördülő menüsora">
@@ -76,26 +76,26 @@
     <main>
         <section class="carousel">
             <button class="carousel_button carousel_button-left">
-                <img class="carousel_left-arrow" src="./assets/icons/left-arrow.png" alt="">
+                <img src="./assets/icons/left-arrow.png" alt="">
             </button>
             <div class="carousel_image-container">
-                <ul class="carousel_image">
+                <ul>
                     <li class="carousel_slide">
-                        <img src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla tea">
+                        <a href=""><img class="carousel_image" src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla tea"></a>
                     </li>
                     <li class="carousel_slide">
-                        <img src="./assets/photos/Csipkebogyó_tea.jpg" alt=" Csipkebogyó tea">
+                        <a href=""><img class="carousel_image" src="./assets/photos/Csipkebogyó_tea.jpg" alt=" Csipkebogyó tea"></a>
                     </li>
                     <li class="carousel_slide">
-                        <img src="./assets/photos/Rólunk.jpg" alt="Rólunk">
+                        <a href=""><img class="carousel_image" src="./assets/photos/Rólunk.jpg" alt="Rólunk"></a>
                     </li>
                 </ul>
             </div>
             <button class="carousel_button carousel_button-right">
-                <img class="carousel_right-arrow" src="./assets/icons/right-arrow.png" alt="">
+                <img src="./assets/icons/right-arrow.png" alt="">
             </button>
-            <div>
-                <button class="carousel_indicator"></button>
+            <div class="carousel_indicator-container">
+                <button class="carousel_indicator current-slide"></button>
                 <button class="carousel_indicator"></button>
                 <button class="carousel_indicator"></button>
             </div>
@@ -118,19 +118,7 @@
             <h6>Kapcsolat</h6>
         </section>
     </footer>
+
     <script src="./script/index.js"></script>
-    
-    <script>
-        const arrow = document.getElementById("js-forward");
-        arrow.onclick = function () {
-        document.getElementById("js-films").scrollLeft += 800;
-    };
-
-
-</script>
-
-
-
-<!-- <div class="mobileUnderlay abc"></div> -->
 </body>
 </html>
