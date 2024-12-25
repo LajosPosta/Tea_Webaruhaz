@@ -148,6 +148,7 @@ h1 {
 .nav-item{
     color: var(--font-color-grey);
     font-size: 1.3rem;
+    font-weight: bold;
     display: inline-block;
     margin: .5rem 0;
 }

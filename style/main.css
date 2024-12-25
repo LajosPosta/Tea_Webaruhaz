@@ -1,8 +1,14 @@
-main {
-   
+/***** Carousel *****/
 
+.carousel-item a img {
+    height: 500px;
 }
 
+
+button img {
+    height: 5rem;
+    border: none;
+}
 
 
 
