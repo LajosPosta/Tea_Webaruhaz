@@ -23,10 +23,12 @@ nav {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: grey;
+    background-color: var(--background-color-darkgrey);
     opacity: .5;
     z-index: 9;
-    visibility: hidden;    
+    visibility: hidden;
+    
+    
 }
 
 #nav-checkbox:checked ~ .overlay {
@@ -162,7 +164,6 @@ h1 {
 .nav-item:hover::after {
     width: 100%;
 } 
-
 
 
 /***** Termékek *****/
