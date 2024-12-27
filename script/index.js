@@ -33,7 +33,7 @@ function productsOpen() {
 
 
 
-/***** CAROUSEL *****/
+/***** CAROUSEL 1 *****/
 
 
 
@@ -132,6 +132,14 @@ indicatorsContainer.addEventListener("click", e => {
     updateIndicators(currentIndicator, celIndicator);
     hideShowArrows(slides, leftButton, rightButton, celIndex);
 })
+
+
+
+
+
+
+
+/***** CAROUSEL 2 *****/
 
 
 

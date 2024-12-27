@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style/config.css">
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/main/carousel1.css">
+    <link rel="stylesheet" href="./style/main/carousel2.css">
     <link rel="stylesheet" href="./style/footer.css">
 
 </head>
@@ -74,7 +76,7 @@
         </nav>
     </header>
     <main>
-        <section class="carousel">
+        <section class="carousel" alt="Kiemelt termékek">
             <button class="carousel_button carousel_button-left is-hidden">
                 <img src="./assets/icons/left-arrow.png" alt="">
             </button>
@@ -100,10 +102,34 @@
                 <button class="carousel_indicator"></button>
             </div>
         </section>
-        <!-- <section>
-            <h2>Termékkategóriák</h2>
+        <section class="carousel2" alt="Kiemelt termékek">
+            <h2>Akciós Termékek</h2>
+            <button class="carousel2_button carousel2_button-left is-hidden">
+                <img src="./assets/icons/left-arrow.png" alt="">
+            </button>
+            <div class="carousel2_track-container">
+                <ul class="carousel2_track">
+                    <li class="carousel2_slide current-slide">
+                        <a href=""><img class="carousel2_image" src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla tea"></a>
+                    </li>
+                    <li class="carousel2_slide">
+                        <a href=""><img class="carousel2_image" src="./assets/photos/Csipkebogyó_tea.jpg" alt=" Csipkebogyó tea"></a>
+                    </li>
+                    <li class="carousel2_slide">
+                        <a href=""><img class="carousel2_image" src="./assets/photos/Rólunk.jpg" alt="Rólunk"></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel2_button carousel2_button-right ">
+                <img src="./assets/icons/right-arrow.png" alt="">
+            </button>
+            <div class="carousel2_indicator-container">
+                <button class="carousel2_indicator current-slide"></button>
+                <button class="carousel2_indicator"></button>
+                <button class="carousel2_indicator"></button>
+            </div>
         </section>
-        <section>
+        <!-- <section>
             <h3>Rólunk</h3>
         </section>
         <section>
