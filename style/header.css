@@ -15,6 +15,7 @@ nav {
     display: none;
 }
 
+
 .overlay {
     position: fixed;
     height: 100vh;
@@ -27,13 +28,12 @@ nav {
     opacity: .5;
     z-index: 9;
     visibility: hidden;
-    
-    
 }
 
-#nav-checkbox:checked ~ .overlay {
+.overlay-active {
     visibility: visible;
 }
+
 
 .hamburger-button {
     position: relative;
@@ -134,7 +134,7 @@ h1 {
     z-index: 10;
 }
 
-.nav-list-container_close-icon {
+.nav-list-container_close-icon{
     display: flex;
     justify-content: end;
 }
@@ -180,7 +180,7 @@ h1 {
 
 }
 
-.products-arrow_is-active {
+.products-arrow-is-active {
     transform: rotate(180deg);
 }
 

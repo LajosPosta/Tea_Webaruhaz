@@ -11,20 +11,22 @@ const products = document.querySelector(".products");
 const carousel = document.querySelector(".carousel")
 
 
-hamburgerBtn.addEventListener("click", menuOpen);
-closeBtn.addEventListener("click", menuOpen);
-overlay.addEventListener("click", menuOpen);
-navItemContainer.addEventListener("click", productsOpen);
-arrow.addEventListener("click", productsOpen);
+hamburgerBtn.addEventListener("click", menuOpenClose);
+closeBtn.addEventListener("click", menuOpenClose);
+overlay.addEventListener("click", menuOpenClose);
+navItemContainer.addEventListener("click", productsOpenClose);
+arrow.addEventListener("click", productsOpenClose);
 
 
-function menuOpen() {
-    navListContainer.classList.toggle("nav-list-container-active");   
+function menuOpenClose() {
+    navListContainer.classList.toggle("nav-list-container-active");
+    overlay.classList.toggle("overlay-active");   
 }
 
-function productsOpen() {
+
+function productsOpenClose() {
     navItemContainer.classList.toggle("nav-item_products-active")
-    arrow.classList.toggle("products-arrow_is-active")
+    arrow.classList.toggle("products-arrow-is-active")
     products.classList.toggle("products-is-active")
 }
 
