@@ -1,0 +1,30 @@
+.about {
+    width: 85%;
+    height: auto;
+    margin: 0 auto 5rem;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--background-color-lightgrey);
+    border-radius: 10px;
+}
+
+.about_image-container {
+    width: 100%;
+    height: auto;
+    
+}
+
+.about_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* .about_h2 {
+    padding: 1rem 0 0 1rem;
+    color: var(--font-color-green);
+} */
+
+.about_paragraph {
+    padding: 1rem 1rem;
+    color: var(--font-color-grey);
+}

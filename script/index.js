@@ -25,19 +25,15 @@ function menuOpenClose() {
 
 
 function productsOpenClose() {
-    navItemContainer.classList.toggle("nav-item_products-active")
-    arrow.classList.toggle("products-arrow-is-active")
-    products.classList.toggle("products-is-active")
+    navItemContainer.classList.toggle("nav-item_products-active");
+    arrow.classList.toggle("products-arrow-active");
+    products.classList.toggle("products-is-active");
 }
 
 
 
 
-
-
 /***** CAROUSEL 1 *****/
-
-
 
 
 
@@ -138,10 +134,10 @@ indicatorsContainer.addEventListener("click", e => {
 
 
 
-
-
-
 /***** CAROUSEL 2 *****/
+
+
+
 
 
 

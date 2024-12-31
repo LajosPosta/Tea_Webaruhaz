@@ -3,8 +3,8 @@
 .carousel {
     position: relative;
     height: 60vh;
-    width: 80%;
-    margin: 0 auto;   
+    width: 85%;
+    margin: 0 auto 5rem;   
 }
 
 .carousel_track-container {
@@ -43,16 +43,16 @@
 }
 
 .carousel_button-left {
-    left: -40px
+    left: -20px
 }
 
 .carousel_button-right {
-    right: -40px;
+    right: -20px;
 }
 
 
 .carousel_button img {
-    width: 2rem;
+    width: 1rem;
     height: 100%;
 }
 

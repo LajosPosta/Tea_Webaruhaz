@@ -7,9 +7,13 @@
     <link rel="shortcut icon" href="./assets/icons/leaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/config.css">
     <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/main/shops.css">
+    <link rel="stylesheet" href="./style/main/main.css">
     <link rel="stylesheet" href="./style/main/carousel1.css">
     <link rel="stylesheet" href="./style/main/carousel2.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/main/shops.css">
+    
     <link rel="stylesheet" href="./style/footer.css">
 
 </head>
@@ -76,6 +80,7 @@
         </nav>
     </header>
     <main>
+        <!--CAROUSEL 1-->
         <section class="carousel" alt="Kiemelt termékek">
             <button class="carousel_button carousel_button-left is-hidden">
                 <img src="./assets/icons/left-arrow.png" alt="">
@@ -102,7 +107,8 @@
                 <button class="carousel_indicator"></button>
             </div>
         </section>
-        <section class="carousel2" alt="Kiemelt termékek">
+        <!--CAROUSEL 2-->
+        <!-- <section class="carousel2" alt="Kiemelt termékek">
             <h2>Akciós Termékek</h2>
             <button class="carousel2_button carousel2_button-left is-hidden">
                 <img src="./assets/icons/left-arrow.png" alt="">
@@ -127,21 +133,61 @@
                 <button class="carousel2_indicator current-slide"></button>
                 <button class="carousel2_indicator"></button>
                 <button class="carousel2_indicator"></button>
+            </div> -->
+        </section>
+        <!--ROLUNK-->
+        <section class="about">
+            <div class="about_image-container">
+                <img class="about_image" src="./assets/photos/Józsi_bácsi.jpg" alt="Kép az alapítóról József bácsiról">
+            </div>
+            <h2 class="about_h2">Rólunk</h2>
+            <div class="about_paragraph">
+                <p>A Joseph Herbal Kft. Józsi bácsi vállakozása kezdetben helyi vállakozásként
+                     indult, mely mára országos szerte ismert a gyógyteát kedvelők körében. </p>
             </div>
         </section>
         <!-- <section>
-            <h3>Rólunk</h3>
-        </section>
-        <section>
-            <h4>Rólunk mondák</h4>
-        </section>
-        <section>
-            <h5>Üzleteink</h5>
+            <h2>Rólunk mondák</h2>
         </section> -->
+        <section class="shops-container">
+            <h2 class="shops_title">Üzleteink</h2>
+            <article class="shop shop-Debrecen">
+                <div>
+                <img class="shop_photo" src="./assets/photos/Debreceni_üzlet.jpg" alt="debreceni üzlet">
+                </div>
+                <h3>Debrecen - üzlet</h3>
+                <div class="opening-place-time-container">
+                    <p>4031 Debrecen Vág utca 55.</p>
+                    <p>H: 08:00 - 17:00</p>
+                    <p>K: 08:00 - 17:00</p>
+                    <p>SZ: 08:00 - 17:00</p>
+                    <p>CS: 08:00 - 17:00</p>
+                    <p>P: 08:00 - 17:00</p>
+                    <p>SZO: 08:00 - 17:00</p>
+                    <p>V: Zárva</p>
+                </div>    
+           </article>
+            <article class="shop shop-Balmazújváros">
+                <div class="shop_photo-container">
+                    <img class="shop_photo" src="./assets/photos/Balmazújvárosi_üzlet.jpg" alt="balmazújvárosi üzlet">
+                </div>
+                <h3>Balmazújvaros - üzlet</h3>
+                <div class="opening-place-time-container">
+                    <p>4060 Balmazújváros Szilágyi Erzsébet utca 105.</p>
+                    <p>H: 08:00 - 17:00</p>
+                    <p>K: 08:00 - 17:00</p>
+                    <p>SZ: 08:00 - 17:00</p>
+                    <p>CS: 08:00 - 17:00</p>
+                    <p>P: 08:00 - 17:00</p>
+                    <p>SZO: 08:00 - 17:00</p>
+                    <p>V: Zárva</p>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
         <section>
-            <h6>Kapcsolat</h6>
+            <h2>Kapcsolat</h2>
         </section>
     </footer>
 

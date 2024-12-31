@@ -180,7 +180,7 @@ h1 {
 
 }
 
-.products-arrow-is-active {
+.products-arrow-active {
     transform: rotate(180deg);
 }
 
@@ -226,11 +226,6 @@ h1 {
 .product:hover::after {
     width: 100%;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 370px) {
