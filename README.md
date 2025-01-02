@@ -8,9 +8,9 @@ Icons:
 # Close icons created by Pixel perfect - Flaticon
 # Arrow icons created by Freepik - Flaticon
 # Back and forward icons created by Roundicons - Flaticon
-
-
-
+# Shopping card created by Freepik - Flaticon
+# Mail icons created by Freepik - Flaticon
+# Phone icons created by Dave Gandy - Flaticon
 
 Photos:
 
