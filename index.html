@@ -43,8 +43,8 @@
                     <img src="./assets/icons/account.png" alt="Belépés">
                 </a>
             </div>
-            
-            <ul class="nav-list-container">
+            <!-- SLIDE BAR -->
+            <section class="nav-list-container">
                 <div class="nav-list-container_close-icon">
                     <label class="close" for="nav-checkbox">
                         <img 
@@ -53,12 +53,12 @@
                             alt="Navigációs menü bezárása">
                     </label>
                 </div>
-                    <li>
+                    <div>
                         <a class="nav-item nav-item_products" href="#">
                             Termékek
                         </a>
                         <img class="products-arrow" src="./assets/icons/arrow.png" alt="termékek legördülő menüsora">
-                    </li>
+                    </div>
                     <ul class="products">
                         <li><a class="product" href="#">Kamilla tea</a></li>
                         <li><a class="product" href="#">Csalán tea</a></li>
@@ -71,16 +71,18 @@
                         <li><a class="product" href="#">Tyúkhúr tea</a></li>
                         <li><a class="product" href="#">Lándzsás útifű tea</a></li>
                     </ul>
-                <li><a class="nav-item" href="#">Rólunk</a></li>
-                <li><a class="nav-item" href="#">Rólunk mondák</a></li>
-                <li><a class="nav-item" href="#">Üzleteink</a></li>
-                <li><a class="nav-item" href="#">Kapcsolat</a></li>
-            </ul>
+                <ul>
+                    <li><a class="nav-item" href="#">Rólunk</a></li>
+                    <li><a class="nav-item" href="#">Rólunk mondák</a></li>
+                    <li><a class="nav-item" href="#">Üzleteink</a></li>
+                    <li><a class="nav-item" href="#">Kapcsolat</a></li>
+                </ul>
+            </section>
         </nav>
     </header>
     <main>
         <!--CAROUSEL 1-->
-        <section class="carousel" alt="Kiemelt termékek">
+        <section class="carousel">
             <button class="carousel_button carousel_button-left is-hidden">
                 <img src="./assets/icons/left-arrow.png" alt="">
             </button>
@@ -106,34 +108,6 @@
                 <button class="carousel_indicator"></button>
             </div>
         </section>
-        <!--CAROUSEL 2-->
-        <!-- <section class="carousel2" alt="Kiemelt termékek">
-            <h2>Akciós Termékek</h2>
-            <button class="carousel2_button carousel2_button-left is-hidden">
-                <img src="./assets/icons/left-arrow.png" alt="">
-            </button>
-            <div class="carousel2_track-container">
-                <ul class="carousel2_track">
-                    <li class="carousel2_slide current-slide">
-                        <a href=""><img class="carousel2_image" src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla tea"></a>
-                    </li>
-                    <li class="carousel2_slide">
-                        <a href=""><img class="carousel2_image" src="./assets/photos/Csipkebogyó_tea.jpg" alt=" Csipkebogyó tea"></a>
-                    </li>
-                    <li class="carousel2_slide">
-                        <a href=""><img class="carousel2_image" src="./assets/photos/Rólunk.jpg" alt="Rólunk"></a>
-                    </li>
-                </ul>
-            </div>
-            <button class="carousel2_button carousel2_button-right ">
-                <img src="./assets/icons/right-arrow.png" alt="">
-            </button>
-            <div class="carousel2_indicator-container">
-                <button class="carousel2_indicator current-slide"></button>
-                <button class="carousel2_indicator"></button>
-                <button class="carousel2_indicator"></button>
-            </div> -->
-        </section>
         <!--ROLUNK-->
         <section class="about">
             <div class="about_image-container">
@@ -145,7 +119,8 @@
                      indult, mely mára országos szerte ismert a gyógyteát kedvelők körében. </p>
             </div>
         </section>
-        <!-- <section>
+        <!-- CAROUSEL 2 -->
+         <!-- <section>
             <h2>Rólunk mondák</h2>
         </section> -->
         <section class="shops-container">
