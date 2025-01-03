@@ -17,5 +17,5 @@ Photos:
 # Pexels.com
 # Józsi bácsi foto https://www.pexels.com/hu-hu/foto/ferfi-dolgozo-cserje-mezogazdasag-4975356/
 
-törés pont 576 768 992
+törés pont 576 768 992 1200
 
