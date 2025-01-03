@@ -1,8 +1,14 @@
-.shops-container {
+.shops-main-container {
     background-color: var(--background-color-vanilia);
     width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.shops-container{
+    /* width: 85%;
+    margin: 0 auto; */
 }
 
 .shops_title {
@@ -40,4 +46,20 @@
     flex-direction: column;
     gap: 1rem;
     padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 578px) {
+    .shops-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop-Balmazujvaros {
+        margin-top: 0;
+    }
+
+    .shops-main-container {
+        
+    
+    }
 }
