@@ -1,14 +1,24 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    height: 80px;
+}
+
 nav {
     position: fixed;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 64px;
-    padding: .5rem 1.5rem;
-    margin: 0 auto;
+    min-width: 350px;
+    height: 80px;
+    padding: 0 1.5rem;
     background-color: rgba(255, 255, 255, 50%);
     backdrop-filter: blur(5px);
-    z-index: 99;
+    z-index: 8;
     
 }
 
@@ -18,7 +28,7 @@ nav {
 
 
 .overlay {
-    position: fixed;
+    position: absolute;
     height: 100vh;
     width: 100vw; 
     top: 0;
@@ -38,8 +48,11 @@ nav {
 
 .hamburger-button {
     position: relative;
-    height: 40px;
-    min-width: 2.4rem;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    height: 80px;
+    width: 45px;
     cursor: pointer;
 }
 
@@ -53,20 +66,20 @@ nav {
 }
 
 .top-line{
-   top: 10px;
+   top: 30px;
 }
 
 .middle-line{
-    top: 20px;
+    top: 40px;
 }
 
 .bottom-line {
-   top: 30px;
+   top: 50px;
 }
 
 #nav-checkbox:checked ~ .hamburger-button .top-line {
     transform: rotate(45deg);
-    top: 20px;
+    top: 40px;
     }
 
 #nav-checkbox:checked ~ .hamburger-button .middle-line {
@@ -76,41 +89,50 @@ nav {
 
 #nav-checkbox:checked ~ .hamburger-button .bottom-line {
     transform: rotate(-45deg);
-    top: 20px;
+    top: 40px;
     }
 
 
+.logo-container {
+    height: 80px;
+}
+
 .logo-container a {
-    height: 100%;
+    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: .5rem;
+    scroll-behavior: smooth;
 }
 
 h1 {
     color: var(--font-color-green);
     font-size: 1.1rem;
-    text-align: center;
+    text-align:center
 }
 
 .logo-container img {
-    height: 60%;
+    height: 50%;
     
 }
 
 .icons-container {
+    height: 80px;
     display: flex;
-    gap: 1rem;
+    justify-content: end;
+    gap: .5rem;
 }
 
 .icons-container a  {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
 .icons-container img{
-    height: 50%;
+    height: 30%;
 }
 
 
@@ -178,6 +200,7 @@ h1 {
     margin-left: 1rem;
     width: .8rem;
     transition: .3s;
+    user-select: none;
 
 }
 
@@ -227,30 +250,17 @@ h1 {
 }
 
 
-@media screen and (max-width: 370px) {
-    nav {
-        gap: .5rem;
-    }
-    
-    .icons-container {
-     gap: .5rem; 
-    }
-}
-
 @media screen and (min-width: 578px) {
     h1 {
-        font-size: 1.5rem
+        font-size: 1.3rem
     }
 
-    .logo-container img {
-        height: 80%;   
+    .icons-container {
+        gap: 1rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    nav {
-        padding: .5rem 2.5rem;
-    }
 
     .product{
         font-size: .9rem;
@@ -275,14 +285,11 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* top: 5rem; */
-        /* left: -27rem; */
         margin-left: 0;
         padding: 0; 
         background-color: rgba(255, 255, 255, 0%);
         height: 100%;
         transition: none; 
-        /* border: 2px solid red; */
         
     }
 
@@ -312,7 +319,8 @@ h1 {
         position: absolute;
         height: 0;
         width: 9rem;
-        top: 3rem;
+        top: 61px;
+        left: -1rem;
         visibility: hidden;
         display: flex;
         flex-direction: column; 
@@ -321,7 +329,7 @@ h1 {
         overflow: hidden;
         background-color: var(--background-color-white);
         border-radius: 10px;
-        padding: 0 .5rem 0 .5rem;
+        padding: .3rem .5rem 0 .5rem;
     }
     
     
@@ -334,7 +342,7 @@ h1 {
         transition: .5s;
         overflow: hidden;
         visibility: visible;
-        /* padding: 1rem; */
+        box-shadow: 0 0 30px rgba(0, 0, 0, .3);
     }
 
     
@@ -349,9 +357,17 @@ h1 {
     .nav-item {
         font-size: 1.2rem;
     }
-}
+
+    /* .overlay-activeee {
+        visibility: visible;
+    }*/
+} 
 
 @media screen and (min-width: 1200px) {
+    .logo-container a {
+        text-align:start;
+    }
+
     .nav-list-container_slide-bar {
         gap: 2rem;
     }

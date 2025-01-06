@@ -7,9 +7,9 @@
 }
 
 .shops-container{
-    /* width: 85%;
-    margin: 0 auto; */
-}
+    width: 85%;
+    margin: 0 auto; 
+} 
 
 .shops_title {
     text-align: center;
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 85%;
+    /* width: 85%; */
     margin: 0 auto;
     background-color: var(--background-color-white);
     border-radius: 10px;
@@ -51,15 +51,20 @@
 @media screen and (min-width: 578px) {
     .shops-container {
         display: grid;
+        gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
     }
 
     .shop-Balmazujvaros {
         margin-top: 0;
     }
+}
 
-    .shops-main-container {
-        
-    
+@media screen and (min-width: 992px) {
+    .shops-container {
+        display: grid;
+        gap: 4rem;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 55rem;
     }
 }

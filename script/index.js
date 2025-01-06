@@ -11,6 +11,7 @@ const products = document.querySelector(".products");
 const carousel = document.querySelector(".carousel")
 
 
+
 hamburgerBtn.addEventListener("click", menuOpenClose);
 closeBtn.addEventListener("click", menuOpenClose);
 overlay.addEventListener("click", menuOpenClose);
@@ -20,7 +21,8 @@ arrow.addEventListener("click", productsOpenClose);
 
 function menuOpenClose() {
     navListContainer.classList.toggle("nav-list-container-active");
-    overlay.classList.toggle("overlay-active");   
+    overlay.classList.toggle("overlay-active");
+       
 }
 
 
