@@ -6,19 +6,12 @@
     <title>Tea Webáruház</title>
     <link rel="shortcut icon" href="./assets/icons/leaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/config.css">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/main/shops.css">
-    <link rel="stylesheet" href="./style/main/main.css">
-    <link rel="stylesheet" href="./style/main/carousel1.css">
-    <link rel="stylesheet" href="./style/main/carousel2.css">
-    <link rel="stylesheet" href="./style/about.css">
-    <link rel="stylesheet" href="./style/main/shops.css">
-    <link rel="stylesheet" href="./style/footer.css">
-
+    <link rel="stylesheet" href="./style/home/home.css">
 </head>
 <body>
     <header id="header">
-        <nav>
+        <!--NAV BAR begins-->
+        <nav class="navbar">
             <label class="overlay" for="nav-checkbox"></label>
             <input type="checkbox" id="nav-checkbox">
             <label for="nav-checkbox" class="hamburger-button">
@@ -34,7 +27,7 @@
                 </a>
             </div>
             
-            <!-- SLIDE BAR -->
+            <!-- SLIDE BAR  begins-->
             <section class="nav-list-container">
                 <div class="nav-list-container_close-icon">
                     <label class="close" for="nav-checkbox">
@@ -73,7 +66,7 @@
                         </ul>
                     </div>    
             </section>
-            <!--SIDEBAR END-->
+            <!--SIDE BAR end-->
 
             <div class="icons-container">
                 <a href="#">
@@ -86,10 +79,18 @@
                     <img src="./assets/icons/account.png" alt="Belépés">
                 </a>
             </div>
-            
+        <!--SEARCH section-->
+        <section class="search">
+            <input type="text" class="search-box" placeholder="Mit jár a fejedben?">
+            <button class="search-btn">Keresés</button>
+        </section>
+        <!--SEARCH end section-->
         </nav>
+        <!-- NAV BAR end-->
+        
     </header>
     <main>
+        
         <!--CAROUSEL 1-->
         <section class="carousel">
             <button class="carousel_button carousel_button-left is-hidden">
@@ -127,10 +128,6 @@
                 
             </div>
         </section>
-        <!-- CAROUSEL 2 -->
-         <!--<section>
-            <h2>Rólunk mondák</h2>
-        </section> -->
         <section class="shops-main-container">
             <h2 class="shops_title">Üzleteink</h2>
             <div class="shops-container">
@@ -203,6 +200,8 @@
         </section>
         <p class="copyright">József Herbal Kft. 2025 &copy; - Minden jog fenntartva</p>
     </footer>
-    <script src="./script/index.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/crousel1.js"></script>
+    <script></script>
 </body>
 </html>
