@@ -76,7 +76,6 @@ const createNav = () => {
         </section>
         <!--SEARCH end section-->
     `;
-
 }
 
 createNav();
