@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
+    <link rel="shortcut icon" href="./assets/icons/leaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/config.css">
     <link rel="stylesheet" href="./style/home/home.css">
     <link rel="stylesheet" href="./style/product.css">
@@ -16,11 +17,37 @@
         <!-- NAV BAR end-->
     </header>
 
-    <section class="product-details">
+    <section class="product-details-container">
+        <div class="product-image-container">
+            <img src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla tea">
+            <div class="product-carousel-container">
+                <img src="./assets/photos/Kamilla_tea.jpg" class="active" alt="Kamilla-tea">
+                <img src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla-tea">
+                <img src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla-tea">
+                <img src="./assets/photos/Kamilla_tea.jpg" alt="Kamilla-tea">
+            </div>
         </div>
-        <div class="actial-image">
+        <div class="product-details">
+            <h2>Kamilla tea (Tea megfázásra)</h2>
+            <div class="line"></div>
+            <div class="price-container">
+                <span class="price">1400 Ft</span>
+                <span>14Ft/g</span>
+            </div>
+            <div class="packaging">Kiszerelés</div>
+            <input type="radio" name="weight" value="50g" id="weight-50g" hidden checked>
+            <label for="weight-50g" class="weight-btn check">50g</label>
+            <input type="radio" name="weight" value="100g"  id="weight-100g" hidden>
+            <label for="weight-100g" class="weight-btn">100g</label>
+            <input type="radio" name="weight" value="150g" id="weight-150g" hidden>
+            <label for="weight-150g" class="weight-btn">150g</label>
+            <div class="btn-container">
+                <button class="btn cart-btn">Kosárba</button>
+                <button class="btn wish-btn">Kívánságlistába</button>
+            </div>
         </div>
-        <div class="product"></div>
+
+        
     </section>
 
     <footer class="footer"></footer>
