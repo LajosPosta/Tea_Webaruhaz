@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+    .product-details {
+        width: 85%;
+        height: 80vh;
+        /* padding: 2rem 0; */
+        margin: 5rem auto 3rem;
+        border: 2px solid green;
+    }
+}
