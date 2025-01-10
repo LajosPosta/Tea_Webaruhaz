@@ -1,3 +1,107 @@
+.product-details-container {
+    width: 85%;
+    padding-top: 2rem;
+    margin: 5rem auto 3rem;
+
+}
+
+.product-slider {
+    display: none;
+}
+
+.product-images-container {
+    display: flex;
+}
+
+.Kamilla {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-details h2 {
+    color: var(--font-color-green);
+    font-size: 2rem;
+    padding: 2rem 0 1rem;
+}
+
+.line {
+    height: 1px;
+    width: 80%;
+    background-color: var(--background-color-darkgrey);
+}
+
+.price-container {
+    padding: 2rem 0 2rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding-bottom: 5rem;
+}
+
+.packaging {
+    color: var(--font-color-grey);
+    font-size: 1.2rem;
+    padding-bottom: 1.3rem;
+}
+
+.weight-btn {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--background-color-lightgrey2);
+    color: var(--font-color-grey);
+    text-align: center;
+    font-weight: bold;
+    line-height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.weight-btn.check {
+    background-color: var(--background-color-lightgreen);
+    border: 2px solid var(--background-color-green);
+    color: var(--font-color-green);
+}
+
+.btn-container {
+    margin-top: 5rem;
+}
+
+.btn {
+    border: none;
+    width: 15vw;
+    height: 4rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.cart-btn {
+    background-color: var(--background-color-green);
+    color: var(--font-color-white);
+    margin-right: 1rem;
+    min-width: 110px;
+}
+
+.cart-btn:hover {
+    background-color: var(--background-color-lightgreen-btn);
+}
+
+.wish-btn {
+    margin-top: 1rem;
+    border: 2px solid var(--background-color-darkgrey);
+    color: var(--font-color-grey);
+    min-width: 190px;
+}
+
+
 @media screen and (min-width: 992px) {
     .product-details-container {
         display: grid;
@@ -5,17 +109,11 @@
         width: 85%;
         height: 80vh;
         gap: 2rem;
-        padding-top: 2rem;
-        margin: 5rem auto 3rem;
     }
 
     .product-slider {
+        display: block;
         width: 100%;
-        /*background-image: url(../assets/photos/Kamilla-tea/Kamilla_tea0.webp);*/
-        /* background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; */
-
         border-radius: 10px;       
     }
 
@@ -29,10 +127,16 @@
         width: 80%;
     }
 
-    .product-images-container img {
+    .Kamilla {
         width: 6rem;
         cursor: pointer;
         border-radius: 5px;        
+    }
+
+    .product-details h2 {
+        color: var(--font-color-green);
+        font-size: 2rem;
+        padding: 0 0 1rem;
     }
 
     .product-images-container img.active {
@@ -40,58 +144,9 @@
         opacity: .6;
     }
 
-    .product-details h2 {
-        color: var(--font-color-green);
-        font-size: 2rem;
-        padding: 2rem 0 1rem;
-    }
-
-    .line {
-        height: 1px;
-        width: 80%;
-        background-color: var(--background-color-darkgrey);
-    }
-
-    .price-container {
-        padding: 2rem 0 2rem;
-    }
-
-    .price {
-        font-weight: bold;
-        font-size: 1.5rem;
-        margin-right: 1rem;
-        padding-bottom: 5rem;
-    }
-
-    .packaging {
-        color: var(--font-color-grey);
-        font-size: 1.2rem;
-        padding-bottom: 1.3rem;
-    }
-
-    .weight-btn {
-        display: inline-block;
-        width: 4rem;
-        height: 4rem;
-        background-color: var(--background-color-lightgrey2);
-        color: var(--font-color-grey);
-        text-align: center;
-        font-weight: bold;
-        line-height: 4rem;
-        border-radius: 50%;
-        margin-right: 1rem;
-        cursor: pointer;
-        user-select: none;
-    }
-    
-    .weight-btn.check {
-        background-color: var(--background-color-lightgreen);
-        border: 2px solid var(--background-color-green);
-        color: var(--font-color-green);
-    }
-
     .btn-container {
-        padding-top: 5rem;
+        padding: 0;
+        margin-top: 3rem;
     }
 
     .btn {
@@ -117,5 +172,6 @@
     .wish-btn {
         border: 2px solid var(--background-color-darkgrey);
         color: var(--font-color-grey);
+        margin-top: 0;
     }
 }
