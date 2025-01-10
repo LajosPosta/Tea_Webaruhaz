@@ -11,7 +11,7 @@ const createNav = () => {
             </label>
 
             <div class="logo-container">
-                <a href="#header">
+                <a href="index.html">
                     <h1>Tea Webáruház</h1>
                     <img  src="./assets/icons/herbal-tea.png" alt="logo">
                 </a>
