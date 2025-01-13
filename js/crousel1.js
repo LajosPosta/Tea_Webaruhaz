@@ -1,7 +1,7 @@
 const track = document.querySelector(".carousel_track");
 const slides = Array.from(track.children);
-const rightButton = document.querySelector(".carousel_button-right");
-const leftButton = document.querySelector(".carousel_button-left");
+const rightButton = document.querySelector(".carousel1_button-right");
+const leftButton = document.querySelector(".carousel1_button-left");
 const indicatorsContainer = document.querySelector(".carousel_indicator-container");
 const indicators = Array.from(indicatorsContainer.children)
 

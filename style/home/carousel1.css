@@ -1,4 +1,4 @@
-/***** Carousel *****/
+/***** Carousel1 *****/
 
 .carousel {
     position: relative;
@@ -34,7 +34,7 @@
     object-fit: cover;
 }
 
-.carousel_button {
+.carousel1_button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -43,16 +43,16 @@
     cursor: pointer;
 }
 
-.carousel_button-left {
+.carousel1_button-left {
     left: -20px
 }
 
-.carousel_button-right {
+.carousel1_button-right {
     right: -20px;
 }
 
 
-.carousel_button img {
+.carousel1_button img {
     width: 1rem;
     height: 100%;
 }
