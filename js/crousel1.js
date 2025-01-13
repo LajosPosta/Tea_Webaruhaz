@@ -94,11 +94,6 @@ indicatorsContainer.addEventListener("click", e => {
 
 
 
-/***** CAROUSEL 2 *****/
-
-
-
-
 
 
 
