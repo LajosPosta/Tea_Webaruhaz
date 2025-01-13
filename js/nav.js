@@ -49,8 +49,8 @@ const createNav = () => {
                             </ul>
                         </div>
                         <ul class="al-ul">
+                            <li><a class="nav-item" href="#">Termék kategóriák</a></li>
                             <li><a class="nav-item" href="#">Rólunk</a></li>
-                            <li><a class="nav-item" href="#">Rólunk mondák</a></li>
                             <li><a class="nav-item" href="#">Üzleteink</a></li>
                             <li><a class="nav-item" href="#">Kapcsolat</a></li>
                         </ul>
