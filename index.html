@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/home/home.css">
 </head>
 <body>
+
     <!--FEJLÉC-->
     <header id="header">
         <!--NAV BAR begins-->
@@ -16,6 +17,7 @@
         </nav>
         <!-- NAV BAR end-->
     </header>
+
     <!--MAIN-->
     <main>
         <!--TERMÉKEK CAROUSEL 1-->
@@ -45,34 +47,31 @@
                 <button class="carousel_indicator"></button>
             </div>
         </section>
-        <!--TERMÉK KATEGÓRIÁK CAROUSEL2-->
-        <section class="product-categories_carousel">
-            <h2 class="product-categories_h2">Termék kategóriák</h2>
-            <div class="product-categories_main-container">
-                <button class="carousel2_button carousel2_button-left">
-                    <img src="./assets/icons/left-arrow.png" alt="">
-                </button>
 
-                <ul class="product-categories">
-                    <li class="product-category">
-                        <h3>Ömlesztett gyógyteák</h3>
-                        <img src="./assets/photos/Ömlesztett_gyógyteák.webp" alt="Ömlesztett gyógyteák">
+        <!--TERMÉK KATEGÓRIÁK CAROUSEL2-->
+        <h2 class="carousel2_title">Termék kategóriák</h2>
+        <section class="carousel2">
+            <button class="carousel2_button carousel2_button-left is-hidden">
+                <img src="./assets/icons/left-arrow.png" alt="">
+            </button>
+            <div class="carousel2_track-container">
+                <ul class="carousel2_track">
+                    <li class="carousel2_slide current-slide">
+                        <a href="product.html"><img class="carousel2_image" src="./assets/photos/Filteres_teák.webp" alt="Filteres teák"></a>
                     </li>
-                    <li class="product-category">
-                        <h3>Filteres teák</h3>
-                        <img src="./assets/photos/Filteres_teák.webp" alt="Filteres teák">
+                    <li class="carousel2_slide">
+                        <a href=""><img class="carousel2_image" src="./assets/photos/Élvezeti_teák.webp" alt="Élvezeti teák"></a>
                     </li>
-                    <li class="product-category">
-                        <h3>Élvezeti teák</h3>
-                        <img src="./assets/photos/Élvezeti_teák.webp" alt="Élvezeti teák">
+                    <li class="carousel2_slide">
+                        <a href=""><img class="carousel2_image" src="./assets/photos/Ömlesztett_gyógyteák.webp" alt="Ömlesztett gyógyteák"></a>
                     </li>
                 </ul>
-
-                <button class="carousel2_button carousel2_button-right">
-                    <img src="./assets/icons/right-arrow.png" alt="">
-                </button>
             </div>
+            <button class="carousel2_button carousel2_button-right ">
+                <img src="./assets/icons/right-arrow.png" alt="">
+            </button>
         </section>
+
         <!--ROLUNK-->
         <section class="about">
             <img class="about_image" src="./assets/photos/Józsi_bácsi.webp" alt="Kép Józsi bácsiról">
@@ -82,12 +81,14 @@
                             indult, mely mára országos szerte ismert a gyógyteát kedvelők körében. </p>
             </div>
         </section>
+
+        <!--Üzletek-->
         <section class="shops-main-container">
             <h2 class="shops_title">Üzleteink</h2>
             <div class="shops-container">
                 <article class="shop shop-Debrecen">
                     <div>
-                    <img class="shop_photo" src="./assets/photos/Debreceni_üzlet.jpg" alt="debreceni üzlet">
+                    <img class="shop_photo" src="./assets/photos/Debreceni_üzlet.webp" alt="debreceni üzlet">
                     </div>
                     <div class="shop_oppening-place--time-container">
                         <h3>Debrecen - üzlet</h3>
@@ -105,7 +106,7 @@
                 </article>
                 <article class="shop shop-Balmazujvaros">
                     <div class="shop_photo-container">
-                        <img class="shop_photo" src="./assets/photos/Balmazújvárosi_üzlet.jpg" alt="balmazújvárosi üzlet">
+                        <img class="shop_photo" src="./assets/photos/Balmazújvárosi_üzlet.webp" alt="balmazújvárosi üzlet">
                     </div>
                     <div class="shop_oppening-place--time-container">
                         <h3>Balmazújváros - üzlet</h3>
@@ -124,13 +125,14 @@
             </div>
         </section>
     </main>
+
     <!--LÁBLÉC-->
     <footer class="footer">
     </footer>
     <script src="./js/nav.js"></script>
     <script src="./js/crousel1.js"></script>
     <script src="./js/footer.js"></script>
-    <script src="./js/categories.js"></script>
+    <script src="./js/carousel2.js"></script>
     
 </body>
 </html>

@@ -21,6 +21,7 @@ footer {
 .contact-box1>h2 {
   padding: 0 0 1rem 0; 
   text-align: center;
+  color: var(--font-color-green);
 }
 
 .contact-box1>p {
